@@ -3,9 +3,9 @@
 
 int N;
 int answer = 0;
-bool cols[15];  // 각 열에 퀸이 놓여있는지 여부
-bool diag1[30]; // 대각선 방향(\)에 퀸이 놓여있는지 여부
-bool diag2[30]; // 대각선 방향(/)에 퀸이 놓여있는지 여부
+bool cols[15];
+bool diag1[30];
+bool diag2[30];
 
 void solve(int row) {
     if (row == N) {
